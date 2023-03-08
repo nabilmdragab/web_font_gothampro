@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 #################################################################################
-# Author      : ROOK FZ LLC (<https://rook.ae/>)
-# Copyright(c): 2020-Present ROOK.ae
+# Author      : Reson for IT Solutions (<https://reson.ae/>)
+# Copyright(c): 2020-Present reson.ae
 # All Rights Reserved.
 #
 # This program is copyright property of the author mentioned above.
 # You can`t redistribute it and/or modify it.
 #
 # You should have received a copy of the License along with this program.
-# If not, see <https://rook.ae/license/>
+# If not, see <https://reson.ae/license/>
 #################################################################################
 {
     'name': 'Gotham Pro Font',
@@ -17,17 +17,20 @@
     'category': 'Hidden',
     'version': '14.0.1.0.0',
     'author': 'Nabil Mohamed Ali Ragab',
-    'company': 'ROOK FZ LLC',
-    'maintainer': 'ROOK FZ LLC',
-    'website': "https://www.rook.ae",
+    'company': 'Reson for IT Solutions',
+    'maintainer': 'Reson for IT Solutions',
+    'website': "https://www.reson.ae",
     'depends': [
         'web',
         'website',
         'portal'
     ],
-    'data': [
-        'views/frontend_assets.xml',
-    ],
+    'data': [],
+    'assets': {
+        'web._assets_primary_variables': [
+            '/web_font_gothampro/static/src/scss/stylesheet.scss'
+        ],
+    },
     'installable': True,
     'application': False,
     'auto_install': False,
@@ -35,6 +38,6 @@
     'images': ['static/description/banner.jpg'],
     'currency': 'USD',
     'price': 0,
-    'support': 'nabil@rook.ae',
+    'support': 'nabil@reson.ae',
 
 }
